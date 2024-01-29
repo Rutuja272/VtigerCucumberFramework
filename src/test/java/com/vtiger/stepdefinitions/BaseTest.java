@@ -144,6 +144,9 @@ public class BaseTest extends PageObjectManager {
 		htmlReporter.config().setTheme(Theme.STANDARD);
 	}
 
+	public void closeWindow() {
+		driver.close();
+	}
 	
 
 	public void closeApp() {
